@@ -1,11 +1,9 @@
 #include <jni.h>
 #include <string>
-
 extern "C"
-jstring
-Java_hit_campo_hellolive_MainActivity_stringFromJNI(
-        JNIEnv* env,
-        jobject /* this */) {
+JNIEXPORT jstring JNICALL
+Java_hit_campo_live_pub_WorkerThread_stringFromJNI(JNIEnv *env, jobject instance) {
+
     std::string hello = "Hello from C++";
     return env->NewStringUTF(hello.c_str());
 }
