@@ -1,4 +1,4 @@
-package hit.campo.live.base;
+package hit.campo.live.app;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

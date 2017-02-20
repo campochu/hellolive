@@ -2,7 +2,7 @@ package hit.campo.hellolive;
 
 import android.app.Application;
 
-import hit.campo.live.base.Global;
+import hit.campo.live.app.Global;
 
 /**
  * ckb on 2017/2/18.
